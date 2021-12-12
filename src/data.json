@@ -1,0 +1,21 @@
+[{
+    "id": "1",
+    "author": "Milan",
+    "likes": "32",
+    "text": "Ovo je probni tvit",
+    "date": "20.09.2020"
+  },
+  {
+    "id": "2",
+    "author": "Stojan",
+    "likes": "32",
+    "text": "Ovo je probni tvit",
+    "date": "20.09.2020"
+  },
+  {
+    "id": "3",
+    "author": "Zoran",
+    "likes": "32",
+    "text": "Danas je lep dan",
+    "date": "20.09.2020"
+  }]
