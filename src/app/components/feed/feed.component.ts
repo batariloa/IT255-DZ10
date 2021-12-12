@@ -1,9 +1,9 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
-import { Card } from '../tweet/model';
+import { Card } from '../card/model';
 import { FormsModule } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 import { RouterModule } from '@angular/router';
-import { ApiRequestError } from 'twitter-api-v2';
+
 import { ApiService } from 'src/app/services/api.service';
 
 @Component({

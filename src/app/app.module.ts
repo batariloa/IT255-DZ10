@@ -5,7 +5,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FeedComponent } from './components/feed/feed.component';
-import { CardComponent } from './components/tweet/card.component';
+import { CardComponent } from './components/card/card.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
@@ -23,7 +23,7 @@ import { ApiService } from './services/api.service';
   imports: [
     BrowserModule,
     AppRoutingModule, FormsModule,
-    CommonModule, RouterModule, HttpClientModule
+    CommonModule, HttpClientModule, RouterModule
   ],
   providers: [ ApiService ],
   bootstrap: [AppComponent]

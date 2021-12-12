@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { FeedComponent } from './components/feed/feed.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
-import { CardComponent } from './components/tweet/card.component';
+import { CardComponent } from './components/card/card.component';
 
 const routes: Routes = [
   { path: 'card/:id', component: CardComponent },
